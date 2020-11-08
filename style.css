@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  color: #000;
+  font-size: 15px;
+  line-height: 1.5;
+  overflow: hidden;
+  position: relative;
+}
+
+header {
+  background-color: black;
+  font-weight: 500;
+}
+
+a {
+  color: #262626;
+  text-decoration: none;
+  transition: 0, 5s;
+}
+
+ul {
+  list-style: none;
+}
+
+#menu-color {
+  color: #fff;
+}
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  background-color: #000;
+}
+
+/* Nav */
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px 0;
+  font-size: 22px;
+}
+
+.main-nav .logo {
+  width: 129.74px;
+}
+
+.main-nav ul li {
+  padding: 0 10px;
+}
+
+.main-nav .main-menu #menu-color:hover {
+  color: #00d4ff;
+}
+
+.main-nav ul {
+  display: flex;
+  margin-right: 5px;
+}
+
+.music-image {
+  position: absolute;
+  top: 90px;
+  left: 60%;
+}
+
+.hd {
+  position: absolute;
+  color: #ff7675;
+  top: 240px;
+  left: 40px;
+  font-size: 45px;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.content {
+  position: absolute;
+  top: 320px;
+  left: 40px;
+  color: #ececec;
+  font-size: 25px;
+  letter-spacing: 0.03em;
+}
+
+#join-us {
+  position: absolute;
+  top: 450px;
+  left: 170px;
+  text-decoration: none;
+  border: 1px solid #00d4ff;
+  padding: 15px 30px;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 25px;
+  transition: 0.5s;
+  transition-property: background;
+  color: #e67e22;
+}
+#join-us:hover {
+  background-color: #00d4ff;
+  color: #fff;
+}
