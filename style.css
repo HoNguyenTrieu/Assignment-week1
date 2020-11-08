@@ -79,7 +79,7 @@ ul {
 .hd {
   position: absolute;
   color: #ff7675;
-  top: 240px;
+  top: 210px;
   left: 40px;
   font-size: 45px;
   font-family: Roboto, sans-serif;
@@ -88,7 +88,7 @@ ul {
 
 .content {
   position: absolute;
-  top: 320px;
+  top: 280px;
   left: 40px;
   color: #ececec;
   font-size: 25px;
@@ -97,7 +97,7 @@ ul {
 
 #join-us {
   position: absolute;
-  top: 450px;
+  top: 420px;
   left: 170px;
   text-decoration: none;
   border: 1px solid #00d4ff;
